@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}
+body{
+        background-color: rgb(214, 223, 253);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        animation: Gradient 35s ease-in-out infinite;
+        background:linear-gradient(-45deg, rgb(22, 22, 22), rgb(24, 24, 24), #747070, rgb(139, 139, 139)) no-repeat;
+        background-size: 300% 300%;    }
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #eee;
+    padding: 60px;
+    border-radius: 15px;
+    width: 400px;
+    height: 220px;
+}
+.posts{
+    font-size: 1.4rem;
+
+}
+button{
+    width: 140px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+
+}
+@keyframes Gradient{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+
+    }
+}
